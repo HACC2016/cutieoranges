@@ -3,11 +3,11 @@ Cutie Oranges Farmers Market app for the HACC 2016 Challenge
 
 
 ## Basic Usage
-1. [Install Meteor](https://www.meteor.com/install)
+* [Install Meteor](https://www.meteor.com/install)
 
-2. Download the latest version of the application at: https://github.com/CutieOranges/FarmersMarket
+* Download the latest version of the application at: https://github.com/CutieOranges/FarmersMarket
 
-3. In the app directory of the project, invoke Meteor:
+* In the app directory of the project, invoke Meteor:
 ```
 meteor --settings ../config/settings.development.json
 ```
@@ -16,3 +16,5 @@ meteor --settings ../config/settings.development.json
 ```
 meteor --settings ../config/settings.production.json
 ```
+
+* Navigate to localhost:3000
