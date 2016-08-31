@@ -5,7 +5,7 @@ Cutie Oranges Farmers Market app for the HACC 2016 Challenge
 ## Basic Usage
 * [Install Meteor](https://www.meteor.com/install)
 
-* Download the latest version of the application at: https://github.com/CutieOranges/FarmersMarket
+* Download the latest version of the application at [Cutie Oranges](https://github.com/CutieOranges/FarmersMarket)
 
 * In the app directory of the project, invoke Meteor:
 ```
