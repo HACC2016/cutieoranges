@@ -1,6 +1,0 @@
-{
-  "name": "Farmersmarket",
-  "tagline": "Cutie Oranges Farmers Market app for the HACC 2016 Challenge",
-  "body": "# FarmersMarket\r\nCutie Oranges Farmers Market app for the HACC 2016 Challenge\r\n\r\n\r\n## Basic Usage\r\n* [Install Meteor](https://www.meteor.com/install)\r\n\r\n* Download the latest version of the application at [Cutie Oranges](https://github.com/CutieOranges/FarmersMarket)\r\n\r\n* In the app directory of the project, invoke Meteor:\r\n```\r\nmeteor --settings ../config/settings.development.json\r\n```\r\n   In production, use the following:\r\n\r\n```\r\nmeteor --settings ../config/settings.production.json\r\n```\r\n\r\n* Navigate to localhost:3000",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
