@@ -10,20 +10,20 @@ FarmersMarket= new Mongo.Collection(farmersMarket);
 
 Meteor.methods({
   /**
-   * Invoked by AutoForm to add a new Stuff record.
+   * Invoked by AutoForm to add a new record.
    * @param doc The FarmersMarket document.
    */
-  addStuff: function(doc) {
+  addMarket: function(doc) {
     check(doc, FarmersMarket.simpleSchema());
     FarmersMarket.insert(doc);
   },
   /**
    *
-   * Invoked by AutoForm to update a Stuff record.
+   * Invoked by AutoForm to update a record.
    * @param doc The FarmersMarket document.
    * @param docID It's ID.
    */
-  editStuff: function(doc, docID) {
+  editMarket: function(doc, docID) {
     check(doc, FarmersMarket.simpleSchema());
     FarmersMarket.update({_id: docID}, doc);
   }
