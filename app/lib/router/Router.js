@@ -26,5 +26,5 @@ Router.route('/add', {
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
-  data: function() { return Stuff.findOne(this.params._id); }
+  data: function() { return FarmersMarket.findOne(this.params._id); }
 });

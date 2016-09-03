@@ -10,8 +10,8 @@ var stuffSeeds = [
 /**
  * Initialize the Stuff collection if empty with seed data.
  */
-if (Stuff.find().count() === 0) {
+if (FarmersMarket.find().count() === 0) {
   _.each(stuffSeeds,  function(stuff) {
-    Stuff.insert(stuff);
+    FarmersMarket.insert(stuff);
   });
 }

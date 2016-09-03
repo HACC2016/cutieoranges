@@ -1,5 +1,5 @@
 {
-    // JSHint Configuration file for ICS Software Engineering
+    // JSHint Configuration
     // See http://jshint.com/docs/ for more details
 
     "maxerr"        : 50,       // {int} Maximum error before stopping
@@ -93,11 +93,16 @@
 
     "globals"       : {
 
+      "check"         : true,
+      "SimpleSchema"  : true,
+      "Mongo"         : true,
       "Meteor"        : false,
       "AutoForm"      : false,
       "Router"        : false,
       "Template"      : false,
-      "Stuff"         : false
-
+      "Stuff"         : true,
+      "stuff"         : true,
+      "FarmersMarket" : true,
+      "farmersMarket" : true
     }
 }
