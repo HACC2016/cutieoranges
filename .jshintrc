@@ -103,6 +103,8 @@
       "Stuff"         : true,
       "stuff"         : true,
       "FarmersMarket" : true,
-      "farmersMarket" : true
+      "farmersMarket" : true,
+      "users"         : true,
+      "Users"         : true
     }
 }

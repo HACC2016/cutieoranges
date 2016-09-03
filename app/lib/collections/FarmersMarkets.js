@@ -125,7 +125,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   contact:{
     label: "Contact Name",
     type: String,
-    optional: false,
+    optional: true,
     autoform:{
       placeholder: "Contact Name"
     }
