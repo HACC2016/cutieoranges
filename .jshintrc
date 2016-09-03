@@ -111,6 +111,8 @@
       "Vendors"       : true,
       "vendors"       : true,
       "Comments"      : true,
-      "comments"      : true
+      "comments"      : true,
+      "favorites"     : true,
+      "Favorites"     : true
     }
 }

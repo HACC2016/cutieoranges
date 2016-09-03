@@ -15,6 +15,16 @@ Users = new Mongo.Collection(users);
 
 Users.attachSchema(new SimpleSchema({
 
+  userName:{
+    label: "Username",
+    type: String,
+    optional: false,
+    autoform:{
+      group: users,
+      placeholder: "Username"
+    }
+  },
+
   firstName:{
     label: "First Name",
     type: String,
