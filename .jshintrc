@@ -107,6 +107,8 @@
       "users"         : true,
       "Users"         : true,
       "Products"      : true,
-      "products"      : true
+      "products"      : true,
+      "Vendors"       : true,
+      "vendors"       : true
     }
 }
