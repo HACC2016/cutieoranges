@@ -23,7 +23,6 @@ Users.attachSchema(new SimpleSchema({
       group: users,
       placeholder: "First Name"
     }
-
   },
 
   lastName:{
@@ -34,7 +33,6 @@ Users.attachSchema(new SimpleSchema({
       group: users,
       placeholder: "Last Name"
     }
-
   },
 
   email:{

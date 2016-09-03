@@ -109,6 +109,8 @@
       "Products"      : true,
       "products"      : true,
       "Vendors"       : true,
-      "vendors"       : true
+      "vendors"       : true,
+      "Comments"      : true,
+      "comments"      : true
     }
 }
