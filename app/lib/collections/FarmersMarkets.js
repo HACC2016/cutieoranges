@@ -31,7 +31,7 @@ Meteor.methods({
 
 // Publish the entire Collection.  Subscription performed in the router.
 if (Meteor.isServer) {
-  Meteor.publish(stuff, function () {
+  Meteor.publish(farmersMarket, function () {
     return FarmersMarket.find();
   });
 }
@@ -48,40 +48,100 @@ FarmersMarket.attachSchema(new SimpleSchema({
     optional: false,
     unique: true,
     autoform: {
-      group: stuff,
+      group: farmersMarket,
       placeholder: "Farmers Market"
     }
   },
 
-  time:{
+  day:{
+    label: "Open Days",
+    type: String,
+    optional: false,
+    allowedValues: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    autoform:{
+      placeholder: "Open Days"
+    }
+  },
 
+  startTime:{
+    label: "Opens",
+    type: Date,
+    optional: false,
+    autoform:{
+      afFieldInput:{
+        type: "bootstrap-datetimepicker"
+      }
+    }
+  },
+
+  endTime:{
+    label: "Closes",
+    type: Date,
+    optional: false,
+    autoform:{
+      afFieldInput:{
+        type: "bootstrap-datetimepicker"
+      }
+    }
   },
 
   location:{
-
+    label: "Location",
+    type: String,
+    optional: false,
+    autoform: {
+      group: farmersMarket,
+      placeholder: "Location"
+    }
   },
 
   locationInfo:{
-
+    label: "Location Information",
+    type: String,
+    optional: true,
+    autoform: {
+      group: farmersMarket,
+      placeholder: "Location Information"
+    }
   },
 
   island:{
-
+    label: "Island",
+    type: String,
+    optional: false,
+    allowedValues: ['Oahu', 'Hawaii', 'Kauai', 'Maui'],
+    autoform:{
+      placeholder: "Island"
+    }
   },
 
   website:{
-
+    label: "Website",
+    type: String,
+    regEx: SimpleSchema.RegEx.Url,
+    optional: true
   },
 
   contact:{
-
+    label: "Contact Name",
+    type: String,
+    optional: false,
+    autoform:{
+      placeholder: "Contact Name"
+    }
   },
 
+  /* Phone number in the following format: (123) 123-1234*/
   phone:{
-
+    type:  String,
+    optional: true,
+    regEx: /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/
   },
 
   email:{
-
+    label: "Contact Email",
+    type: String,
+    optional: true,
+    regEx: SimpleSchema.RegEx.Email
   }
 }));
