@@ -105,6 +105,8 @@
       "FarmersMarket" : true,
       "farmersMarket" : true,
       "users"         : true,
-      "Users"         : true
+      "Users"         : true,
+      "Products"      : true,
+      "products"      : true
     }
 }

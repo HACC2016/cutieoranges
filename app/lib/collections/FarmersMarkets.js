@@ -53,6 +53,16 @@ FarmersMarket.attachSchema(new SimpleSchema({
     }
   },
 
+  description:{
+    label: "Description",
+    type: String,
+    optional: true,
+    autoform: {
+      group: farmersMarket,
+      placeholder: "Description"
+    }
+  },
+
   day:{
     label: "Open Days",
     type: String,
