@@ -69,6 +69,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     optional: false,
     allowedValues: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
     autoform:{
+      group: farmersMarket,
       placeholder: "Open Days"
     }
   },
@@ -79,6 +80,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     optional: false,
     autoform:{
       afFieldInput:{
+        group: farmersMarket,
         type: "bootstrap-datetimepicker"
       }
     }
@@ -90,6 +92,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     optional: false,
     autoform:{
       afFieldInput:{
+        group: farmersMarket,
         type: "bootstrap-datetimepicker"
       }
     }
@@ -141,6 +144,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     optional: false,
     allowedValues: ['Oahu', 'Hawaii Island', 'Kauai', 'Maui', 'Molokai', 'Lanai'],
     autoform:{
+      group: farmersMarket,
       placeholder: "Island"
     }
   },
@@ -149,7 +153,10 @@ FarmersMarket.attachSchema(new SimpleSchema({
     label: "Website",
     type: String,
     regEx: SimpleSchema.RegEx.Url,
-    optional: true
+    optional: true,
+    autoform:{
+      placeholder: "Website"
+    }
   },
 
   contact:{
@@ -157,22 +164,32 @@ FarmersMarket.attachSchema(new SimpleSchema({
     type: String,
     optional: true,
     autoform:{
+      group: farmersMarket,
       placeholder: "Contact Name"
     }
   },
 
   /* Phone number in the following format: (123) 123-1234*/
   phone:{
+    label: "Phone Number",
     type:  String,
     optional: true,
-    regEx: /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/
+    regEx: /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/,
+    autoform:{
+      group: farmersMarket,
+      placeholder: "Phone Number"
+    }
   },
 
   email:{
     label: "Contact Email",
     type: String,
     optional: true,
-    regEx: SimpleSchema.RegEx.Email
+    regEx: SimpleSchema.RegEx.Email,
+    autoform:{
+      group: farmersMarket,
+      placeholder: "Contact Email"
+    }
   },
 
   dateModified:{

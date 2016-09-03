@@ -15,43 +15,24 @@ Products = new Mongo.Collection(products);
 
 Products.attachSchema(new SimpleSchema({
 
-  firstName:{
-    label: "First Name",
-    type: String,
-    optional: true,
-    autoform:{
-      group: users,
-      placeholder: "First Name"
-    }
-
-  },
-
-  lastName:{
-    label: "Last Name",
-    type: String,
-    optional: true,
-    autoform:{
-      group: users,
-      placeholder: "Last Name"
-    }
-
-  },
-
-  email:{
-    label: "Email",
+  productName:{
+    label: "Product Name",
     type: String,
     optional: false,
-    unique: true,
     autoform:{
-      group: users,
-      placeholder: "Email"
+      group: products,
+      placeholder: "Product Name"
     }
   },
 
-  roles: {
-    type: Object,
-    optional: true,
-    blackbox: true
+  productType:{
+    label: "Product Type",
+    type: String,
+    optional: false,
+    autoform:{
+      group: products,
+      placeholder: "Product Type"
+    }
   }
 }));
 
