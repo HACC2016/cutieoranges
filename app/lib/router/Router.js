@@ -3,6 +3,7 @@
  * See: http://iron-meteor.github.io/iron-router/
  */
 
+/* globals Router, Stuff, Meteor */
 
 Router.configure({
   layoutTemplate: 'Layout',
