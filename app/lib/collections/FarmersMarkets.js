@@ -95,13 +95,33 @@ FarmersMarket.attachSchema(new SimpleSchema({
     }
   },
 
-  location:{
-    label: "Location",
+  streetAddress:{
+    label: "Street Address",
     type: String,
     optional: false,
     autoform: {
       group: farmersMarket,
-      placeholder: "Location"
+      placeholder: "Street Address"
+    }
+  },
+
+  city:{
+    label: "City",
+    type: String,
+    optional: false,
+    autoform: {
+      group: farmersMarket,
+      placeholder: "City"
+    }
+  },
+
+  zipcode:{
+    label: "Zip Code",
+    type: String,
+    optional: false,
+    autoform: {
+      group: farmersMarket,
+      placeholder: "Zip Code"
     }
   },
 
@@ -119,7 +139,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     label: "Island",
     type: String,
     optional: false,
-    allowedValues: ['Oahu', 'Hawaii', 'Kauai', 'Maui'],
+    allowedValues: ['Oahu', 'Hawaii Island', 'Kauai', 'Maui', 'Molokai', 'Lanai'],
     autoform:{
       placeholder: "Island"
     }
@@ -153,5 +173,11 @@ FarmersMarket.attachSchema(new SimpleSchema({
     type: String,
     optional: true,
     regEx: SimpleSchema.RegEx.Email
+  },
+
+  dateModified:{
+    type: Date,
+    label: "Last Modified",
+    optional: true
   }
 }));
