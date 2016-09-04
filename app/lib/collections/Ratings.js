@@ -12,7 +12,7 @@ Ratings = new Mongo.Collection(ratings);
  * Schema for Ratings
  */
 
-Favorites.attachSchema(new SimpleSchema({
+Ratings.attachSchema(new SimpleSchema({
 
   /* Farmers Market ID*/
   FMId:{
