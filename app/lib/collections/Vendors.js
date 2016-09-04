@@ -25,6 +25,17 @@ Vendors.attachSchema(new SimpleSchema({
     }
   },
 
+  description:{
+    label: "Description",
+    type: String,
+    optional: true,
+    autoform:{
+      group: vendors,
+      placeholder: "Description"
+    }
+
+  },
+
   products:{
     label: "Products",
     type: String,
