@@ -119,6 +119,10 @@
       "Ratings"       : true,
       "ratings"       : true,
       "tips"          : true,
-      "Tips"          : true
+      "Tips"          : true,
+      "vendorscomments": true,
+      "VendorsComments": true,
+      "vendorsratings": true,
+      "VendorsRatings": true
     }
 }
