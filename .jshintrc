@@ -114,9 +114,11 @@
       "comments"      : true,
       "favorites"     : true,
       "Favorites"     : true,
-      "eventsFA"        : true,
-      "EventsFA"        : true,
-      "Ratings"         : true,
-      "ratings"         : true
+      "eventsFA"      : true,
+      "EventsFA"      : true,
+      "Ratings"       : true,
+      "ratings"       : true,
+      "tips"          : true,
+      "Tips"          : true
     }
 }
