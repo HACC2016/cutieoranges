@@ -14,6 +14,8 @@ Router.route('/', {
   name: 'Home'
 });
 
+/*This is cool - Jo*/
+
 /*
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
