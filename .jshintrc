@@ -115,6 +115,8 @@
       "favorites"     : true,
       "Favorites"     : true,
       "eventsFA"        : true,
-      "EventsFA"        : true
+      "EventsFA"        : true,
+      "Ratings"         : true,
+      "ratings"         : true
     }
 }
