@@ -113,6 +113,8 @@
       "Comments"      : true,
       "comments"      : true,
       "favorites"     : true,
-      "Favorites"     : true
+      "Favorites"     : true,
+      "eventsFA"        : true,
+      "EventsFA"        : true
     }
 }
