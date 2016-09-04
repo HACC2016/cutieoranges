@@ -12,7 +12,7 @@ Favorites = new Mongo.Collection(favorites);
  * Schema for Favorites
  */
 
-Comments.attachSchema(new SimpleSchema({
+Favorites.attachSchema(new SimpleSchema({
 
   /* Farmers Market, Vendor, etc ID*/
   favoriteId:{
@@ -21,7 +21,6 @@ Comments.attachSchema(new SimpleSchema({
   },
 
   owner:{
-    label: "Commenter",
     type: String,
     optional: false
   }
