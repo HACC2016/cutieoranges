@@ -101,7 +101,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   streetAddress:{
     label: "Street Address",
     type: String,
-    optional: false,
+    optional: true,
     autoform: {
       group: farmersMarket,
       placeholder: "Street Address"
@@ -111,7 +111,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   city:{
     label: "City",
     type: String,
-    optional: false,
+    optional: true,
     autoform: {
       group: farmersMarket,
       placeholder: "City"
@@ -121,7 +121,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   zipcode:{
     label: "Zip Code",
     type: String,
-    optional: false,
+    optional: true,
     autoform: {
       group: farmersMarket,
       placeholder: "Zip Code"
