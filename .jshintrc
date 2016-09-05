@@ -123,6 +123,8 @@
       "vendorscomments": true,
       "VendorsComments": true,
       "vendorsratings": true,
-      "VendorsRatings": true
+      "VendorsRatings": true,
+      "vendorsfavorites": true,
+      "VendorsFavorites": true
     }
 }
