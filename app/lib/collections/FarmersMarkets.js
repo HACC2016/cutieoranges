@@ -128,6 +128,28 @@ FarmersMarket.attachSchema(new SimpleSchema({
     }
   },
 
+  latitude:{
+    label: "Latitude Coordinate",
+    type: Number,
+    decimal: true,
+    optional: true,
+    autoform:{
+      group: farmersMarket,
+      placeholder: "Latitude Coordinate"
+    }
+  },
+
+  longitude:{
+    label: "Longitude Coordinate",
+    type: Number,
+    decimal: true,
+    optional: true,
+    autoform:{
+      group: farmersMarket,
+      placeholder: "Longitude Coordinate"
+    }
+  },
+
   locationInfo:{
     label: "Location Information",
     type: String,
