@@ -25,6 +25,17 @@ Vendors.attachSchema(new SimpleSchema({
     }
   },
 
+  island:{
+    label: "Island",
+    type: String,
+    optional: false,
+    allowedValues: ['Oahu', 'Hawaii Island', 'Kauai', 'Maui', 'Molokai', 'Lanai'],
+    autoform:{
+      group: farmersMarket,
+      placeholder: "Island"
+    }
+  },
+
   description:{
     label: "Description",
     type: String,
@@ -34,19 +45,6 @@ Vendors.attachSchema(new SimpleSchema({
       placeholder: "Description"
     }
 
-  },
-
-  products:{
-    label: "Products",
-    type: String,
-    optional: false,
-    allowedValues: function(){
-      return Products.find({}).map(function(object){return object.productName;});
-    },
-    autoform:{
-      group: vendors,
-      placeholder: "Products"
-    }
   }
 }));
 

@@ -125,6 +125,8 @@
       "vendorsratings": true,
       "VendorsRatings": true,
       "vendorsfavorites": true,
-      "VendorsFavorites": true
+      "VendorsFavorites": true,
+      "vendorsproducts" : true,
+      "VendorsProducts" : true
     }
 }
