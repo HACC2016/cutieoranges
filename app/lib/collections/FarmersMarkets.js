@@ -77,7 +77,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   startTime:{
     label: "Opens",
     type: Date,
-    optional: false,
+    optional: true,
     autoform:{
       afFieldInput:{
         group: farmersMarket,
@@ -89,7 +89,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
   endTime:{
     label: "Closes",
     type: Date,
-    optional: false,
+    optional: true,
     autoform:{
       afFieldInput:{
         group: farmersMarket,
