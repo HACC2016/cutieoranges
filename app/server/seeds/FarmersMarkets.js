@@ -17,8 +17,7 @@ var farmersmarketSeed = [
     website: "http://www.co.honolulu.hi.us/parks/programs/pom",
     contact: "",
     phone: "",
-    email: "",
-    dateModified: moment("2016-09-31").toDate()
+    email: ""
   }
 ];
 
