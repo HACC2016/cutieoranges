@@ -128,6 +128,8 @@
       "VendorsFavorites": true,
       "vendorsproducts" : true,
       "VendorsProducts" : true,
-      "Accounts"        : true
+      "Accounts"        : true,
+      "moment"          : true,
+      "_"               : true
     }
 }

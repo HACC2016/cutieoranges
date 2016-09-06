@@ -63,6 +63,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     }
   },
 
+  /*
   day:{
     label: "Open Days",
     type: String,
@@ -96,7 +97,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
         type: "bootstrap-datetimepicker"
       }
     }
-  },
+  },*/
 
   streetAddress:{
     label: "Street Address",
