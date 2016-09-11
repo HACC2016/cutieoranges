@@ -28,7 +28,7 @@ nav .icon {
 header {
   width: 100%;
   height: 100vh;
-  background-image:url('../../public/images/aerial-view-of-potatoes.jpg');
+  background-image:url('/images/aerial-view-of-potatoes.jpg');
 }
 
 /*************/
