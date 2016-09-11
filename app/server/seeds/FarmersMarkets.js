@@ -58,7 +58,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Benjamin Parker Elementary School",
@@ -86,7 +86,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Country Market & Craft Fair at Waimanalo Homestead Community Center",
@@ -282,7 +282,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Halawa District Park (People's Open Market)",
@@ -408,7 +408,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Hawaii Kai Towne Center",
@@ -576,7 +576,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Kailua Elementary School",
@@ -646,7 +646,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Kaneohe District Park (People's Open Market)",
@@ -660,7 +660,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Kapaa New Town Park (Sunshine Markets)",
@@ -688,7 +688,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Kauai Community Market (Kauai Community College)",
@@ -716,7 +716,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Keaau Village Farmers' Market",
@@ -996,7 +996,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Makiki Local Grown Farmers' Market at St. Clement's Church",
@@ -1066,7 +1066,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Maui Mall Farmers' Market & Craft Fair",
@@ -1136,7 +1136,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Molokai Saturday Market",
@@ -1164,7 +1164,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "North Shore Country Market",
@@ -1206,7 +1206,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Ono Organic Farms Farmers' Market",
@@ -1248,7 +1248,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Panaewa Hawaiian Home Lands Farmers' Market",
@@ -1276,7 +1276,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Queen Kapiolani Park (People's Open Market)",
@@ -1290,7 +1290,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Queen's Medical Center",
@@ -1332,7 +1332,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Salt Lake Municipal Lot  (People's Open Market)",
@@ -1346,7 +1346,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "South Kona Fruit Stand",
@@ -1528,7 +1528,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Waialua Farmers' Market",
@@ -1570,7 +1570,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Waikele Community Park (People's Open Market)",
@@ -1584,7 +1584,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Waikiki Farmers' Market",
@@ -1626,7 +1626,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Waimea Town Market",
@@ -1654,7 +1654,7 @@ var farmersmarketSeed = [
     "contact": "",
     "phone": "(808) 522-7088",
     "email": "",
-    "website": ""
+    "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Ward Center",

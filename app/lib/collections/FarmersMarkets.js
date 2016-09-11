@@ -176,7 +176,6 @@ FarmersMarket.attachSchema(new SimpleSchema({
   website:{
     label: "Website",
     type: String,
-    regEx: SimpleSchema.RegEx.Url,
     optional: true,
     autoform:{
       placeholder: "Website"
