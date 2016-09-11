@@ -14,6 +14,10 @@ Router.route('/', {
   name: 'index'
 });
 
+Router.route('/Find-Farmers-Markets',{
+  template: 'FarmersMarketMap'
+});
+
 Router.route('/FarmersMarket/:_id', {
   template: 'FarmersMarketProfile',
   data: function() {

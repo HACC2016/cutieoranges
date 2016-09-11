@@ -131,6 +131,8 @@
       "Accounts"        : true,
       "moment"          : true,
       "_"               : true,
-      "Random"          : true
+      "Random"          : true,
+      "GoogleMaps"      : true,
+      "google"          : true
     }
 }
