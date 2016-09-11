@@ -6,7 +6,7 @@
 
 farmersMarket = "FarmersMarket";  // avoid typos, this string occurs many times.
 
-FarmersMarket= new Mongo.Collection(farmersMarket);
+FarmersMarket = new Mongo.Collection(farmersMarket);
 
 Meteor.methods({
   /**
