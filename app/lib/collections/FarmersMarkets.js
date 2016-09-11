@@ -166,7 +166,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     label: "Island",
     type: String,
     optional: false,
-    allowedValues: ['Oahu', 'Hawaii Island', 'Kauai', 'Maui', 'Molokai', 'Lanai'],
+    allowedValues: ['Oahu', 'Hawaii', 'Kauai', 'Maui', 'Molokai', 'Lanai'],
     autoform:{
       group: farmersMarket,
       placeholder: "Island"
