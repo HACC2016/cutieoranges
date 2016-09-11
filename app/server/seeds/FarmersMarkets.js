@@ -159,20 +159,6 @@ var farmersmarketSeed = [
     "website": "http://www.mahikufarmersmarket.com"
   },
   {
-    "name": "Ewa Beach Elementary School",
-    "streetAddress": "91-740 Papipi Road",
-    "locationInfo": "",
-    "latitude": "",
-    "longitude": "",
-    "island": "Oahu",
-    "city": "Ewa Beach",
-    "zipcode": 96706,
-    "contact": "Sonny Doung",
-    "phone": "(808) 225-4002",
-    "email": "sonnydoung@hotmail.com",
-    "website": "www.mahikufarmersmarket.com"
-  },
-  {
     "name": "Farmers' Market of Maui-Honokowai",
     "streetAddress": "3636 Lower Honoapi'ilani Road",
     "locationInfo": "Location at Hawaiian Motors parking lot (across from Honokowai Park)",
@@ -229,20 +215,6 @@ var farmersmarketSeed = [
     "website": ""
   },
   {
-    "name": "First Insurance Center",
-    "streetAddress": "1100 Ward Ave.",
-    "locationInfo": "Across from Thomas Square",
-    "latitude": "",
-    "longitude": "",
-    "island": "Oahu",
-    "city": "Honolulu",
-    "zipcode": "",
-    "contact": "",
-    "phone": "",
-    "email": "",
-    "website": ""
-  },
-  {
     "name": "Fort Street near Wilcox Park",
     "streetAddress": "",
     "locationInfo": "In front of Macy's",
@@ -257,22 +229,8 @@ var farmersmarketSeed = [
     "website": "http://www.local-farmers-markets.com/market/1162/honolulu/fort-street-near-wilcox-park"
   },
   {
-    "name": "Fort Street near Wilcox Park",
-    "streetAddress": "",
-    "locationInfo": "Honolulu (In front of Macy's)",
-    "latitude": "",
-    "longitude": "",
-    "island": "Oahu",
-    "city": "Honolulu",
-    "zipcode": "",
-    "contact": "Lori Zane",
-    "phone": "(808) 777-9216",
-    "email": "",
-    "website": "www.local-farmers-markets.com/market/1162/honolulu/fort-street-near-wilcox-park"
-  },
-  {
     "name": "Halawa District Park (People's Open Market)",
-    "streetAddress": "99-795 Iwaiwa Street\nHI",
+    "streetAddress": "99-795 Iwaiwa Street",
     "locationInfo": "",
     "latitude": "",
     "longitude": "",
@@ -283,20 +241,6 @@ var farmersmarketSeed = [
     "phone": "(808) 522-7088",
     "email": "",
     "website": "http://www.co.honolulu.hi.us/parks/programs/pom"
-  },
-  {
-    "name": "Halawa District Park (People's Open Market)",
-    "streetAddress": "99-795 Iwaiwa Street",
-    "locationInfo": "",
-    "latitude": "",
-    "longitude": "",
-    "island": "Oahu",
-    "city": "Honolulu",
-    "zipcode": "",
-    "contact": "",
-    "phone": "(808) 522-7088",
-    "email": "",
-    "website": "www.co.honolulu.hi.us/parks/programs/pom"
   },
   {
     "name": "Hale'iwa Farmers' Market",
@@ -311,20 +255,6 @@ var farmersmarketSeed = [
     "phone": "(808) 388-9696",
     "email": "haleiwafarmersmarket@gmail.com",
     "website": "http://www.haleiwafarmersmarket.com"
-  },
-  {
-    "name": "Hale'iwa Farmers' Market",
-    "streetAddress": "59-864 Kamehameha Hwy",
-    "locationInfo": "Kam Hwy. and Joseph P. Leong Bypass",
-    "latitude": "",
-    "longitude": "",
-    "island": "Oahu",
-    "city": "Haleiwa",
-    "zipcode": "",
-    "contact": "",
-    "phone": "(808) 388-9696",
-    "email": "haleiwafarmersmarket@gmail.com",
-    "website": "www.haleiwafarmersmarket.com"
   },
   {
     "name": "Hali'imaile Farmers' Market",
