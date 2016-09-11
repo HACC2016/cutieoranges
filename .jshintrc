@@ -130,6 +130,7 @@
       "VendorsProducts" : true,
       "Accounts"        : true,
       "moment"          : true,
-      "_"               : true
+      "_"               : true,
+      "Random"          : true
     }
 }

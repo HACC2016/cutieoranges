@@ -42,6 +42,7 @@ if (Meteor.isServer) {
  */
 FarmersMarket.attachSchema(new SimpleSchema({
 
+
   name: {
     label: "Name",
     type: String,

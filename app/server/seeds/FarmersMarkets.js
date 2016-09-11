@@ -5,7 +5,7 @@
 
 var farmersmarketSeed = [
   {
-    name: "Waipahu Disctrict Park (People's Open Market",
+    name: "Waipahu District Park (People's Open Market",
     description: "We sell the freshest produce!",
     streetAddress: "94-230 Paiwa Street",
     city: "Waipahu",
@@ -16,7 +16,7 @@ var farmersmarketSeed = [
     island: "Oahu",
     website: "http://www.co.honolulu.hi.us/parks/programs/pom",
     contact: "",
-    phone: "",
+    phone: "(808) 123-4567",
     email: "",
     dateModified: moment("2016-04-20").toDate()
   }
