@@ -11,7 +11,7 @@ Router.configure({
 });
 
 Router.route('/', {
-  name: 'Home'
+  name: 'index'
 });
 
 /*This is cool - Jo*/
