@@ -1,12 +1,10 @@
 var vendorsSeed = [
 
-  /*{
+  {
     vendorName: "Cutie Oranges",
     island: "Oahu",
-
-
-  }*/
-
+    description: "We sell only the freshest and finest produce!"
+  }
 
 ];
 
