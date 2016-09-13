@@ -80,6 +80,12 @@ header h1 {
   width: 60%;
 }
 
+#home-header-contents img {
+  /*border: solid red 1px;*/
+  width: 70px;
+  height: 90px;
+}
+
 .center-outer {
   display: table-cell;
   vertical-align: middle;
@@ -124,6 +130,13 @@ header h1 {
   font-size: 3em;
   text-align: center;
   font-family: 'Grand Hotel', cursive;
+}
+
+.page-section p {
+  font-family: 'Quicksand', Calibri;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.8em;
 }
 
 section:nth-child(odd) {
