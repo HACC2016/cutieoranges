@@ -133,6 +133,7 @@
       "_"               : true,
       "Random"          : true,
       "GoogleMaps"      : true,
-      "google"          : true
+      "google"          : true,
+      "FarmersMarketIndex": true
     }
 }

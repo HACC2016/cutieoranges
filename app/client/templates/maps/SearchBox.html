@@ -3,7 +3,7 @@
 
     <ul>
         {{#EasySearch.Each index=farmersmarketIndex }}
-            <li>{{name}}</li>
+           <a href="{{pathFor 'FarmersMarket'}}/{{_id}}">{{name}}</a>
         {{/EasySearch.Each}}
     </ul>
 </template>

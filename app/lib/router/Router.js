@@ -14,7 +14,7 @@ Router.route('/', {
   name: 'index'
 });
 
-Router.route('/Find-Farmers-Markets',{
+Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
   template: 'FarmersMarketMap'
 });
