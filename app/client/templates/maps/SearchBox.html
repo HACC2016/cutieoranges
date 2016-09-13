@@ -1,9 +1,20 @@
 <template name="SearchBox">
-    {{> EasySearch.Input index=farmersmarketIndex }}
+    {{> EasySearch.Input event=enter index=farmersmarketIndex }}
 
-    <ul>
+
+        <div class="list-group">
         {{#EasySearch.Each index=farmersmarketIndex }}
-           <a href="{{pathFor 'FarmersMarket'}}/{{_id}}">{{name}}</a>
+        <a href="{{pathFor 'FarmersMarket'}}/{{_id}}" class="list-group-item list-group-item-action">
+           {{name}}
+            <p style="font-size: 12px" class="list-group-item-text">{{locationInfo}}</p>
+        </a>
         {{/EasySearch.Each}}
-    </ul>
+        </div>
+
+    {{> EasySearch.LoadMore index=farmersmarketIndex}}
+
+    {{#EasySearch.IfNoResults index=farmersmarketIndex}}
+        <div class="no-results">No results found!</div>
+    {{/EasySearch.IfNoResults}}
+
 </template>
