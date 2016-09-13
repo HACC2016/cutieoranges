@@ -7,7 +7,7 @@
             <div id="home-header-contents" class="center-inner">
                 <h1>Say <img src="/images/kelpup2.png" alt="HI"> to Hawai'i Fresh.</h1>
                 <div id="find-button" class="center-outer">
-                    <div class="center-inner">
+                    <a href="{{ pathFor 'Find-Farmers-Markets' }}"><div class="center-inner">
                         <!--
 
                         This is how you would link.
@@ -15,12 +15,23 @@
                         <a href="{{ pathFor 'Find-Farmers-Markets' }}">Find a Market Near You</a>
                         -->
                         <span>Find a Market Near You</span>
-                    </div>
+                    </div></a>
                 </div>
             </div>
             <div class="jump-down">
-                V
+                <a id="link" href="#"><i class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
             </div>
         </div>
     </header>
+
+    <script>
+        function scrollToAnchor(aid){
+            var aTag = $("a[name='"+ aid +"']");
+            $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+        }
+
+        $("#link").click(function() {
+            scrollToAnchor('start');
+        });
+    </script>
 </template>
