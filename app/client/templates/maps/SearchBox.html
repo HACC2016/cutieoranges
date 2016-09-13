@@ -1,0 +1,9 @@
+<template name="SearchBox">
+    {{> EasySearch.Input index=farmersmarketIndex }}
+
+    <ul>
+        {{#EasySearch.Each index=farmersmarketIndex }}
+            <li>{{name}}</li>
+        {{/EasySearch.Each}}
+    </ul>
+</template>

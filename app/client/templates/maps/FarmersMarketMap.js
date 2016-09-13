@@ -10,13 +10,13 @@ Template.FarmersMarketMap.helpers({
     // Make sure the maps API has loaded
     if (GoogleMaps.loaded()) {
       // Map initialization options
-      var lat = -25.363;
+      var lat = 20.6689659;
 
-      var long = 131.044;
+      var long = -157.3808888;
 
       return {
         center: new google.maps.LatLng(lat, long),
-        zoom: 5,
+        zoom: 8,
         streetViewControl: false
       };
     }
@@ -57,11 +57,11 @@ Template.FarmersMarketMap.onCreated(function() {
 
 
     // Add a marker to the map once it's ready
-    var marker = new google.maps.Marker({
+    /*var marker = new google.maps.Marker({
       position: map.options.center,
       map: map.instance,
       scale: 10
-    });
+    });*/
 
     /*
      marker.addListener('click', function() {

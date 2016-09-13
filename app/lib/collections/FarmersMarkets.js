@@ -7,6 +7,11 @@
 farmersMarket = "FarmersMarket";  // avoid typos, this string occurs many times.
 
 FarmersMarket = new Mongo.Collection(farmersMarket);
+    FarmersMarketIndex = new EasySearch.Index({
+      collection: FarmersMarket,
+      fields: ['name', 'description', 'streetAddress', 'city', 'zipcode', 'island'],
+      engine: new EasySearch.Minimongo()
+    });
 
 Meteor.methods({
   /**
