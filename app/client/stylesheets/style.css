@@ -137,7 +137,10 @@ section:nth-child(even) {
 /*************/
 /* FOOTER
 /*************/
-
+footer {
+  background-color: #2a323a;
+  height: 300px;
+}
 .map-container {
   width: 800px;
   max-width: 100%;
