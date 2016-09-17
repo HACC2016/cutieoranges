@@ -24,6 +24,11 @@ Template.MarketManager.events({
     Router.go('/MarketManager/'+ this._id);
   },
 
+  'click .addMarket': function(e){
+    e.preventDefault();
+    Router.go('AddFarmersMarket');
+  },
+
   'click .goMarket': function(e){
     e.preventDefault();
     Router.go('/FarmersMarket/'+ this._id);

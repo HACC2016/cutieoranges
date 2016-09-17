@@ -209,7 +209,7 @@ FarmersMarket.attachSchema(new SimpleSchema({
     regEx: /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/,
     autoform:{
       group: farmersMarket,
-      placeholder: "Phone Number"
+      placeholder: "Phone Number Ex. (808) 123-4567"
     }
   },
 
