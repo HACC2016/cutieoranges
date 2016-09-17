@@ -21,6 +21,13 @@ Router.route('/Home',{
   template: 'UserHome'
 });
 
+Router.route('/EditProfile',{
+  layoutTemplate: 'GeneralLayout',
+  name: 'EditProfile',
+  template: 'EditProfile'
+});
+
+
 Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
   template: 'FarmersMarketSearch',

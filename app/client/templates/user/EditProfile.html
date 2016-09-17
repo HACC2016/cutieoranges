@@ -1,0 +1,27 @@
+<template name="EditProfile">
+
+    <div style="padding-top: 74px">
+
+        <form class="main form page">
+            <div class="form-group">
+                <label class="control-label" for="profile-image">Profile Image</label>
+                <input type="url" class="form-control" id="profile-image" value="{{ currentUser.profile.profileImage }}" placeholder="Profile image url">
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="first-name">First Name</label>
+                <input type="text" class="form-control" id="first-name" value="{{ currentUser.profile.firstName }}" placeholder="First name">
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="last-name">Last Name</label>
+                <input type="text" class="form-control" id="last-name" value="{{currentUser.profile.lastName }}" placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="input-email">Email</label>
+                <input type="email" class="form-control" id="input-email" value="{{ currentUser.profile.email }}" placeholder="name@domain.com">
+            </div>
+            <input type="submit" value="Submit" class="btn btn-primary submit"/>
+        </form>
+
+    </div>
+
+</template>

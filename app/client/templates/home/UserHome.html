@@ -1,3 +1,19 @@
 <template name="UserHome">
+    {{#IfLoggedIn}}
+        <div class="row move-down" style="padding-top: 74px">
+            <div class="col-md-2 col-md-offset-2">
+                {{#if hasUserPic}}
+                    <img src="{{currentUser.profile.profileImage}}" class="img-rounded center-block" height="100" width="100"><br>
+                {{else}}
+                    <img src="/images/square.png" class="img-rounded center-block" height="100" width="100"><br>
+                {{/if}}
+            </div>
+            <div class="col-md-6">
+                <h4>{{ currentUser.username }} {{ currentUser.profile.firstName }} {{ currentUser.profile.lastName }}</h4><br>
+                <h5 style="text-align: center; margin-top:0;">{{ currentUser.profile.email}}</h5>
+                <button type="button" href="{{pathFor 'EditProfile'}}" class="editProfile btn btn-sm btn-info">Edit Profile</button>
+            </div>
+        </div>
+    {{/IfLoggedIn}}
 
 </template>
