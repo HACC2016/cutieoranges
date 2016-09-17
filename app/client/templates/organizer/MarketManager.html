@@ -19,7 +19,9 @@
                 </td>
                 <td><button type="button" href="{{pathFor 'MarketManager'}}" class="btn deleteMarket btn-info btn-sm">Delete
                 </button></td>
-                <td>View Page</td>
+                <td>
+                    <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{_id}}" class="btn goMarket btn-info btn-sm">View Page</button>
+                </td>
             </tr>
             {{/each}}
             </tbody>
