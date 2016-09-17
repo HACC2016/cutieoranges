@@ -2,7 +2,7 @@
     {{> EasySearch.Input event=enter index=farmersmarketIndex noDocumentsOnEmpty=true }}
 
 
-        <div class="list-group">
+        <div class="list-group" style="margin:0">
         {{#EasySearch.Each index=farmersmarketIndex }}
         <a href="{{pathFor 'FarmersMarket'}}/{{_id}}" class="list-group-item list-group-item-action">
            {{name}}
