@@ -1,5 +1,6 @@
 <template name="SearchBox">
 
+    <div class="search-page">
     {{> EasySearch.Input attributes=attrib event=enter index=farmersmarketIndex noDocumentsOnEmpty=true }}
 
 
@@ -21,5 +22,6 @@
     {{#EasySearch.IfNoResults index=farmersmarketIndex}}
         <div class="no-results">No results found!</div>
     {{/EasySearch.IfNoResults}}
+    </div>
 
 </template>

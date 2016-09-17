@@ -229,7 +229,7 @@ footer {
 /*************/
 /* SEARCH BOX
 /*************/
-input[type=text] {
+.search-page input[type=text] {
     width: 60%;
     box-sizing: border-box;
     border: 2px solid #ccc;
