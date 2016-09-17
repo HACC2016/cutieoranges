@@ -4,9 +4,11 @@
             <a href="{{ pathFor 'index' }}"><img src="/images/plantblack.png"></a>
         </div>
         <ul>
+            {{#IfLoggedIn}}
+            <li><a href="{{ pathFor 'Home' }}">Home</a></li>
             <li><a href="{{ pathFor 'MarketManager' }}">Market Manager</a></li>
+            {{/IfLoggedIn}}
             <li><a href="{{ pathFor 'FarmersMarketSearch' }}">Search</a></li>
-            <li>Link</li>
             <li><a href="#" class="navbar-link">{{> loginButtons }}</a></li>
         </ul>
     </nav>
