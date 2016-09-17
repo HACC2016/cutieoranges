@@ -16,7 +16,8 @@ Router.route('/', {
 
 Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
-  template: 'FarmersMarketSearch'
+  template: 'FarmersMarketSearch',
+  name: 'FarmersMarketSearch'
 });
 
 Router.route('/FarmersMarket/:_id', {
@@ -25,6 +26,18 @@ Router.route('/FarmersMarket/:_id', {
   data: function() {
     return{fmData: FarmersMarket.find({"_id":this.params._id})};
   }
+});
+
+Router.route('/MarketManager', {
+  layoutTemplate: 'GeneralLayout',
+  name: 'MarketManager'
+});
+
+
+Router.route('/MarketManager/:_id', {
+  layoutTemplate: 'GeneralLayout',
+  name: 'EditFarmersMarket',
+  data: function() { return FarmersMarket.findOne(this.params._id); }
 });
 
 Router.route('/Vendor/:_id', {
