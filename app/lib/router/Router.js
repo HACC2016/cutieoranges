@@ -6,7 +6,8 @@
 
 Router.configure({
   layoutTemplate: 'Layout',
- waitOn: function() { return [Meteor.subscribe("Events"), Meteor.subscribe("FarmersMarket"), Meteor.subscribe("Vendors")]; },
+ waitOn: function() { return [Meteor.subscribe("Events"), Meteor.subscribe("FarmersMarket"), Meteor.subscribe("Vendors"),
+    Meteor.subscribe("Tips")]; },
   loadingTemplate: 'Loading'
 });
 
