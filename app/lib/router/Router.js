@@ -15,6 +15,12 @@ Router.route('/', {
   name: 'index'
 });
 
+Router.route('/Home',{
+  layoutTemplate: 'GeneralLayout',
+  name: 'Home',
+  template: 'UserHome'
+});
+
 Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
   template: 'FarmersMarketSearch',
