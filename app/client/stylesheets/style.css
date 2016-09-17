@@ -33,7 +33,7 @@ nav .icon {
   /*border: solid blue 1px;*/
   margin-left: 20px;
   display: inline-block;
-  padding-top:2px;
+  padding-top:4px;
   padding-left: 2px;
 }
 nav img {
@@ -43,9 +43,11 @@ nav img {
 ul {
   display: inline-block;
   float: right;
-  margin-top: 25px;
+  margin-top: 27px;
+  margin-right: 20px;
 }
 li {
+  padding: 10px;
   display: inline;
 }
 
