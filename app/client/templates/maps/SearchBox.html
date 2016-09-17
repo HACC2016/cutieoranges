@@ -1,10 +1,11 @@
 <template name="SearchBox">
-    {{> EasySearch.Input event=enter index=farmersmarketIndex noDocumentsOnEmpty=true }}
+
+    {{> EasySearch.Input attributes=attrib event=enter index=farmersmarketIndex noDocumentsOnEmpty=true }}
 
 
         <div class="list-group" style="margin:0">
         {{#EasySearch.Each index=farmersmarketIndex }}
-        <a href="{{pathFor 'FarmersMarket'}}/{{_id}}" class="list-group-item list-group-item-action">
+        <a style="font-size: 20px" href="{{pathFor 'FarmersMarket'}}/{{_id}}" class="list-group-item list-group-item-action">
            {{name}}
             <p style="font-size: 12px" class="list-group-item-text">{{locationInfo}}</p>
         </a>
@@ -12,7 +13,7 @@
         </div>
 
     <div class="autosuggest-component">
-        {{> EasySearch.Autosuggest index=myIndex}}
+        {{> EasySearch.Autosuggest index=farmersmarketIndex}}
     </div>
 
     {{> EasySearch.LoadMore index=farmersmarketIndex}}

@@ -16,7 +16,7 @@ Router.route('/', {
 
 Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
-  template: 'FarmersMarketMap'
+  template: 'FarmersMarketSearch'
 });
 
 Router.route('/FarmersMarket/:_id', {

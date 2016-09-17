@@ -1,11 +1,11 @@
-Template.FarmersMarketMap.onRendered(function() {
+Template.FarmersMarketSearch.onRendered(function() {
   GoogleMaps.load({
     v: '3',
     key: 'AIzaSyBzXBrUw69VMLb1mnPfieKCWiAfqrIYbpY',
     libraries: 'geometry,places'});
 });
 
-Template.FarmersMarketMap.helpers({
+Template.FarmersMarketSearch.helpers({
   exampleMapOptions: function() {
     // Make sure the maps API has loaded
     if (GoogleMaps.loaded()) {
@@ -24,7 +24,7 @@ Template.FarmersMarketMap.helpers({
 });
 
 
-Template.FarmersMarketMap.onCreated(function() {
+Template.FarmersMarketSearch.onCreated(function() {
   // We can use the `ready` callback to interact with the map API once the map is ready.
   GoogleMaps.ready('exampleMap', function(map) {
 
