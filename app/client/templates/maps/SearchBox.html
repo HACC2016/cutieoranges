@@ -1,5 +1,5 @@
 <template name="SearchBox">
-    {{> EasySearch.Input event=enter index=farmersmarketIndex }}
+    {{> EasySearch.Input event=enter index=farmersmarketIndex noDocumentsOnEmpty=true }}
 
 
         <div class="list-group">
@@ -10,6 +10,10 @@
         </a>
         {{/EasySearch.Each}}
         </div>
+
+    <div class="autosuggest-component">
+        {{> EasySearch.Autosuggest index=myIndex}}
+    </div>
 
     {{> EasySearch.LoadMore index=farmersmarketIndex}}
 
