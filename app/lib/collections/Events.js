@@ -12,6 +12,14 @@ EventsFA = new Mongo.Collection(eventsFA);
  * Schema for Events
  */
 
+
+if (Meteor.isServer) {
+  Meteor.publish(eventsFA, function () {
+    return EventsFA.find();
+  });
+}
+
+
 EventsFA.attachSchema(new SimpleSchema({
 
 
@@ -37,9 +45,3 @@ EventsFA.attachSchema(new SimpleSchema({
     optional: false
   }
 }));
-
-if (Meteor.isServer) {
-  Meteor.publish(eventsFA, function () {
-    return EventsFA.find();
-  });
-}
