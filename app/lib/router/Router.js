@@ -27,7 +27,6 @@ Router.route('/EditProfile',{
   template: 'EditProfile'
 });
 
-
 Router.route('/FarmersMarket',{
   layoutTemplate: 'GeneralLayout',
   template: 'FarmersMarketSearch',
@@ -45,6 +44,12 @@ Router.route('/FarmersMarket/:_id', {
 Router.route('/MarketManager', {
   layoutTemplate: 'GeneralLayout',
   name: 'MarketManager'
+});
+
+Router.route('/MarketManager/AddFarmersMarket', {
+  layoutTemplate: 'GeneralLayout',
+  template:"AddFarmersMarket",
+  name: 'AddFarmersMarket'
 });
 
 

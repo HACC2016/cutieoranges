@@ -1,0 +1,17 @@
+<template name="AddFarmersMarket">
+    {{#IfLoggedIn}}
+        <div class="well">
+            {{> quickForm
+            collection="FarmersMarket"
+            template="bootstrap3-horizontal"
+            label-class="col-sm-2"
+            input-col-class="col-sm-10"
+
+            id="AddFarmersMarketForm"
+            type="method"
+            meteormethod="addMarket"
+            resetOnSuccess=true
+            omitFields="dateModified"}}
+        </div>
+    {{/IfLoggedIn}}
+</template>
