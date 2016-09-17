@@ -1,0 +1,28 @@
+<template name="MarketManager">
+    <div class="table-responsive" style="padding-top: 74px;">
+        <table class="table table-bordered">
+            <thead style="background-color: lightgray;" class="thead-inverse">
+            <tr>
+                <th>Farmers Market</th>
+                <th>Island</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                <th>Market Page</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each listAllMarkets}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{island}}</td>
+                <td><button type="button" href="{{pathFor 'EditFarmersMarket'}}" class="editMarket btn btn-sm btn-info">Edit</button>
+                </td>
+                <td><button type="button" href="{{pathFor 'MarketManager'}}" class="btn deleteMarket btn-info btn-sm">Delete
+                </button></td>
+                <td>View Page</td>
+            </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</template>

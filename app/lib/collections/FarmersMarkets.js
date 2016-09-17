@@ -31,6 +31,10 @@ Meteor.methods({
   editMarket: function(doc, docID) {
     check(doc, FarmersMarket.simpleSchema());
     FarmersMarket.update({_id: docID}, doc);
+  },
+
+  deleteMarket: function(docID) {
+    FarmersMarket.remove(docID);
   }
 });
 
