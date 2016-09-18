@@ -15,16 +15,21 @@
         {{> Carousel}}
     </section>
 
-    <section style="background-color: #FFFFFF; background-image: none">
+    <section style="text-align: left; background-color: #FFFFFF; background-image: none">
 
         <div class="row">
-            <div class="col-sm-1 col-md-8 col-lg-8">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+
+                <div style="padding-top: 20px; padding-left: 10px">
                 {{> PostComment}}
 
                 {{> ListComments}}
+                </div>
+
             </div>
-            <div class="v-divider col-sm-1 col-md-4 col-lg-4">
-                BORING
+            <div class="v-divider col-sm-12 col-md-4 col-lg-4">
+                Information
+                <div style="padding-top: 20px; padding-right: 10px">
                 <div class="map-container">
                     {{> googleMap name="exampleMap" options=exampleMapOptions}}
                 </div>
@@ -32,8 +37,6 @@
                 <h2>{{streetAddress}}</h2>
                 <h2>{{city}}</h2>
                 <h2>{{zipcode}}</h2>
-                <h2>{{latitude}}</h2>
-                <h2>{{longitude}}</h2>
                 <h2>{{description}}</h2>
                 <h2>{{locationInfo}}</h2>
                 <h2>{{island}}</h2>
@@ -41,6 +44,7 @@
                 <h2>{{contact}}</h2>
                 <h2>{{phone}}</h2>
                 <h2>{{email}}</h2>
+                </div>
             </div>
         </div>
 

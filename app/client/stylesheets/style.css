@@ -373,6 +373,19 @@ footer {
 .panel {
     position:relative;
 }
+
+.panel-heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+
+}
+
+.panel-body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+
+}
+
 .panel>.panel-heading:after,.panel>.panel-heading:before{
     position:absolute;
     top:11px;left:-16px;
