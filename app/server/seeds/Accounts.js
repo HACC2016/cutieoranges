@@ -24,6 +24,8 @@ Accounts.validateNewUser(function (user) {
             handle = null;
           }
 
+          Meteor.users.update({_id: userId}, {$set: {"profile.profileImage": "/images/square.png"}});
+
         }
       });
 
