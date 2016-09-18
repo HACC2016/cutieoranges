@@ -30,7 +30,13 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="about">Stuff that they enter in an about me section</div>
-                    <div class="tab-pane" id="comments">shows their comments</div>
+                    <div class="tab-pane" id="comments">shows their comments
+                        {{#each listComments}}
+                            {{comment}}
+                            <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{commentId}}" class="btn viewMarket btn-info btn-sm">View Page</button>
+                        {{/each}}
+
+                    </div>
                     <div class="tab-pane" id="favorites">their favs
                         {{#each listFavorites}}
                         {{name}}

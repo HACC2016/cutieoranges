@@ -18,6 +18,10 @@ Template.UserHome.helpers({
         });
         console.log(favMarket);
         return favMarket;
+    },
+
+    listComments: function(){
+        return Comments.find({commentCreator: Meteor.user().username}).fetch();
     }
 });
 
@@ -30,5 +34,10 @@ Template.UserHome.events({
     'click .goMarket': function(e){
         e.preventDefault();
         Router.go('/FarmersMarket/'+ this._id);
+    },
+
+    'click .viewMarket': function(e){
+        e.preventDefault();
+        Router.go('/FarmersMarket/'+ this.commentId);
     }
 });

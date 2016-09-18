@@ -3,9 +3,9 @@ Template.PostComment.events({
         event.preventDefault();
 
         var comment = event.target.Comment.value;
-
+        var curPage = this._id;
         Comments.insert({
-            commentId: this._id,
+            commentId: curPage,
             comment: comment,
             commentCreator: Meteor.user().username,
             dateCreated: new Date()
