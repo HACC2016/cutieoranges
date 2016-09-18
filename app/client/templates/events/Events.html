@@ -1,11 +1,14 @@
 <template name="Events">
-
+<div class="event-container">
     {{#each listAllEvents}}
-
-        {{eventName}}
-        {{eventDescription}}
-        {{localizedDateAndTime eventDate}}
-
+    <div class="event-tab">
+        <h3>{{eventName}}</h3>
+        <h5>{{eventDescription}}</h5>
+        <div class="bottom-event-tab">
+            <hr>
+            <p>{{localizedDateAndTime eventDate}}</p>
+        </div>
+    </div>
     {{/each}}
-
+</div>
 </template>
