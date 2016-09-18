@@ -266,9 +266,39 @@ footer {
     margin: 0;
     box-sizing: border-box;
     padding:0;
+    color: white;
 }
 
+footer ul {
+    float:none;
+    margin:0;
+    padding-left:10px;
+}
 
+footer li {
+    display: block;
+    margin:0;
+    padding:0;
+    font-size: 0.8em;
+    color:white;
+}
+
+footer h5 {
+    color: white;
+    margin:0;
+    font-size: 1.2em;
+}
+
+.footer-info {
+    width: 300px;
+    margin-left:20%;
+    padding-top: 40px;
+    color:white;
+}
+
+.footer-info a {
+    color: white;
+}
 /*************/
 /* MAP
 /*************/
@@ -408,4 +438,6 @@ footer {
     border-right-color:#ddd;
     border-width:8px;
 }
+
+
 /*<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>*/
