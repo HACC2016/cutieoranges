@@ -30,7 +30,9 @@
             <div class="col-xs-9">
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="about">Stuff that they enter in an about me section</div>
+                    <div class="tab-pane active" id="about">
+                        {{currentUser.profile.about}}
+                    </div>
                     <div class="tab-pane" id="comments">
                         {{#each listComments}}
                             <div class="user-data">{{comment}}</div>
