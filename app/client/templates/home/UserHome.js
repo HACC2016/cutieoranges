@@ -6,6 +6,18 @@ Template.UserHome.helpers({
         });
 
         return imgArray[0] !== undefined;
+    },
+
+    listFavorites: function(){
+
+        var favoriteFM = Meteor.user().profile.favorites;
+        var favMarket = [];
+        _.each(favoriteFM, function(fm){
+
+            favMarket.push(FarmersMarket.find({name: fm}).fetch()[0]);
+        });
+        console.log(favMarket);
+        return favMarket;
     }
 });
 

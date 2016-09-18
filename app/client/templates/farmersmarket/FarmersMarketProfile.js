@@ -37,3 +37,24 @@ Template.FarmersMarketProfile.onCreated(function() {
     });
   });
 });
+
+Template.FarmersMarketProfile.helpers({
+
+  isFavorite: function(){
+    return Meteor.users.find({_id: Meteor.userId(), "profile.favorites": this.name}).count() !== 0;
+  }
+});
+
+Template.FarmersMarketProfile.events({
+
+  'click .favorite': function(e) {
+    e.preventDefault();
+    Meteor.users.update({_id: Meteor.userId()}, {$push: {"profile.favorites": this.name}});
+  },
+
+  'click .unfavorite': function(e){
+    e.preventDefault();
+    Meteor.users.update({_id: Meteor.userId()}, {$pull: {"profile.favorites": this.name}});
+  }
+
+});

@@ -2,6 +2,13 @@
     {{#each fmData}}
     <section class="page-section-top" style="min-height: 100px; background-color:#c5d7af">
         <h3 class="hotel" style="font-size: 35px;">{{name}}</h3>
+        {{#if isFavorite}}
+            <button type="button"  class="unfavorite  btn btn-sm btn-info">Unfavorite
+            </button>
+        {{else}}
+            <button type="button"  class="favorite btn btn-sm btn-info">Favorite
+            </button>
+        {{/if}}
     </section>
 
     <section>
