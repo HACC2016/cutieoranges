@@ -25,5 +25,10 @@ Template.UserHome.events({
     'click .editProfile': function(e){
         e.preventDefault();
         Router.go('/EditProfile');
+    },
+
+    'click .goMarket': function(e){
+        e.preventDefault();
+        Router.go('/FarmersMarket/'+ this._id);
     }
 });
