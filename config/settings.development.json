@@ -1,3 +1,14 @@
 {
-  "defaultAccount": {"username": "John", "password": "changeme"}
+  "defaultAccount": {
+    "username": "jgarces",
+    "password": "123456"
+  },
+
+  "adminUsers": [
+    "kelseyama",
+    "jgarces",
+    "nick"
+  ]
+
+
 }
