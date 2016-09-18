@@ -216,13 +216,14 @@ section:last-of-type {
     width: 200px;
     height: 200px;
     display: inline-block;
-    background-color: white;
+    background-color: #FCFBF9;
     vertical-align: top;
     margin: 10px 30px;
     box-shadow: 0px 2px 5px #888888;
     text-align: center;
     padding: 5px;
     position: relative;
+
 }
 
 .event-tab h3, h5 {
@@ -299,4 +300,24 @@ footer {
     padding: 10px;
 }
 
+.user-data {
+
+}
+
+.user-data h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.user-data h5 {
+    color: black;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.user-info {
+    width: 100%;
+    background-color: blue;
+}
 /*<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>*/
