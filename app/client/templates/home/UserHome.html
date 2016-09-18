@@ -33,9 +33,10 @@
                     <div class="tab-pane" id="comments">shows their comments</div>
                     <div class="tab-pane" id="favorites">their favs
                         {{#each listFavorites}}
-                        {{name}} <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{_id}}" class="btn goMarket btn-info btn-sm">View Page</button>
+                        {{name}}
+                        {{description}}
+                            <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{_id}}" class="btn goMarket btn-info btn-sm">View Page</button>
                         {{/each}}
-
                     </div>
                 </div>
             </div>
