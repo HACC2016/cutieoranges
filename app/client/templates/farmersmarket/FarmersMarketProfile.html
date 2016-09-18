@@ -1,30 +1,38 @@
 <template name="FarmersMarketProfile">
-    <section class="page-section">
-
+    {{#each fmData}}
+    <section class="page-section-top" style="min-height: 100px; background-color:#c5d7af">
+        <h3 class="hotel" style="font-size: 35px;">{{name}}</h3>
     </section>
-    <section class="page-section">
-        {{#each fmData}}
 
-            <h1>{{name}}</h1>
-            <h2>{{streetAddress}}</h2>
-            <h2>{{city}}</h2>
-            <h2>{{zipcode}}</h2>
-            <h2>{{latitude}}</h2>
-            <h2>{{longitude}}</h2>
-            <h2>{{description}}</h2>
-            <h2>{{locationInfo}}</h2>
-            <h2>{{island}}</h2>
-            <h2>{{website}}</h2>
-            <h2>{{contact}}</h2>
-            <h2>{{phone}}</h2>
-            <h2>{{email}}</h2>
-
-        {{/each}}
+    <section>
+        {{> Carousel}}
     </section>
-    <section class="page-section">
-        <div class="map-container">
-            {{> googleMap name="exampleMap" options=exampleMapOptions}}
+
+    <section style="background-color: #FFFFFF; background-image: none">
+
+        <div class="row">
+            <div class="col-sm-1 col-md-8 col-lg-8">Comments</div>
+            <div class="v-divider col-sm-1 col-md-4 col-lg-4">
+                BORING
+                <div class="map-container">
+                    {{> googleMap name="exampleMap" options=exampleMapOptions}}
+                </div>
+
+                <h2>{{streetAddress}}</h2>
+                <h2>{{city}}</h2>
+                <h2>{{zipcode}}</h2>
+                <h2>{{latitude}}</h2>
+                <h2>{{longitude}}</h2>
+                <h2>{{description}}</h2>
+                <h2>{{locationInfo}}</h2>
+                <h2>{{island}}</h2>
+                <h2>{{website}}</h2>
+                <h2>{{contact}}</h2>
+                <h2>{{phone}}</h2>
+                <h2>{{email}}</h2>
+            </div>
         </div>
-        <p></p>
+
     </section>
+    {{/each}}
 </template>
