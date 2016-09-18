@@ -331,10 +331,16 @@ footer {
     box-sizing: border-box;
     padding-top: 30px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .user-edit {
     margin-top: 20px;
+}
+
+.user-data {
+    width: 400px;
+    display: inline-block;
 }
 
 /*************/

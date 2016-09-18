@@ -16,6 +16,7 @@
             </div>
         </div>
 
+
         <div class="user-info">
             <div class="col-xs-3"> <!-- required for floating -->
                 <!-- Nav tabs -->
@@ -30,18 +31,20 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div class="tab-pane active" id="about">Stuff that they enter in an about me section</div>
-                    <div class="tab-pane" id="comments">shows their comments
+                    <div class="tab-pane" id="comments">
                         {{#each listComments}}
-                            {{comment}}
+                            <div class="user-data">{{comment}}</div>
                             <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{commentId}}" class="btn viewMarket btn-info btn-sm">View Page</button>
+                            <br>
                         {{/each}}
 
                     </div>
-                    <div class="tab-pane" id="favorites">their favs
+                    <div class="tab-pane" id="favorites">
                         {{#each listFavorites}}
-                        {{name}}
+                        <div class="user-data">{{name}}</div>
                         {{description}}
                             <button type="button" href="{{pathFor 'FarmersMarketSearch'}}/{{_id}}" class="btn goMarket btn-info btn-sm">View Page</button>
+                            <br>
                         {{/each}}
                     </div>
                 </div>
