@@ -34,16 +34,19 @@
                     {{> googleMap name="exampleMap" options=exampleMapOptions}}
                 </div>
 
-                <h2>{{streetAddress}}</h2>
-                <h2>{{city}}</h2>
-                <h2>{{zipcode}}</h2>
-                <h2>{{description}}</h2>
-                <h2>{{locationInfo}}</h2>
-                <h2>{{island}}</h2>
-                <h2>{{website}}</h2>
-                <h2>{{contact}}</h2>
-                <h2>{{phone}}</h2>
-                <h2>{{email}}</h2>
+                    <div style="font-size: 20px; font-family: 'Roboto Condensed', sans-serif">
+                Address: {{streetAddress}}, {{city}}<br>
+                {{zipcode}}<br>
+
+                Description: {{description}}
+                {{locationInfo}}
+                <br>
+                Contact: {{website}}
+                {{contact}}
+                {{phone}}
+                {{email}}
+                    </div>
+
                 </div>
             </div>
         </div>
