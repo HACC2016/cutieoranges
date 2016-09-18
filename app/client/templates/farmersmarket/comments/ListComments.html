@@ -1,8 +1,33 @@
 <template name="ListComments">
 
     {{#each listComments}}
-        {{comment}}
-        {{commentCreator}}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+               <br>
+
+            </div><!-- /col-sm-12 -->
+        </div><!-- /row -->
+        <div class="row">
+            <div class="col-sm-1">
+                <div class="thumbnail">
+                    <img class="img-responsive user-photo" src="{{commenterImage}}">
+                </div><!-- /thumbnail -->
+            </div><!-- /col-sm-1 -->
+
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong>{{commentCreator}}</strong> <span class="text-muted"></span>
+                    </div>
+                    <div class="panel-body">
+                        {{comment}}
+                    </div><!-- /panel-body -->
+                </div><!-- /panel panel-default -->
+            </div><!-- /col-sm-5 -->
+            </div>
+        </div>
     {{/each}}
 
 </template>
