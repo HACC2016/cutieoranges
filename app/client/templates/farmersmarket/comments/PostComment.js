@@ -7,6 +7,7 @@ Template.PostComment.events({
         Comments.insert({
             commentId: curPage,
             comment: comment,
+            commenterImage: Meteor.user().profile.profileImage,
             commentCreator: Meteor.user().username,
             dateCreated: new Date()
         });

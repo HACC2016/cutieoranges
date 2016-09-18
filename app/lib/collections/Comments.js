@@ -32,6 +32,11 @@ Comments.attachSchema(new SimpleSchema({
     optional: false
   },
 
+  commenterImage:{
+    type: String,
+    optional: false
+  },
+
   comment:{
     type: String,
     optional: false,
