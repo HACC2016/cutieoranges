@@ -29,7 +29,7 @@ meteor --settings ../config/settings.production.json
 
 ## Bugs and Issues
 
-To file an issue, please see [https://github.com/HACC2016/cutieoranges/issues](https://github.com/HACC2016/cutieoranges/issues.).
+To file an issue, please see [https://github.com/HACC2016/cutieoranges/issues](https://github.com/HACC2016/cutieoranges/issues).
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). For more information, please visit:
